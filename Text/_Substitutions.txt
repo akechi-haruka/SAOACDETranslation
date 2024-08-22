@@ -1,0 +1,17 @@
+﻿エラーが発生しました。=An error has occurred.
+
+クライン=Klein
+ユージオ=Eugeo
+シノン=Sinon
+キャラクター=Character
+エギル=Agil
+アリス=Alice
+アルゴ=Argo
+レイン=Rain
+ユウキ=Yuuki
+シリカ=Silica
+リズベット=Lisbeth
+アスナ=Asuna
+キリト=Kirito
+リーファ=Leafa
+

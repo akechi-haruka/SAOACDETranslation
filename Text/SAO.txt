@@ -1,0 +1,145 @@
+チャット=Chat
+
+クリアタイム=Clear Time
+同時撃破数=Max.Multi-KO
+累積ダメージ=Total DMG
+最大コンボ数=Max. Combo
+所持VP=Owned VP
+プレイボーナス=Play Bonus
+
+r:"^VP ボーナス(.*?)VP$"=VP Bonus: $1VP
+r:"^([0-9]+)<size\=60%>クレジット <size\=80\n%>$"=$1<size\=60%> Credits <size\=80%>
+r:"^([0-9]+)<size\=60%>クレジット <size\=80%>$"=$1<size\=60%> Credits <size\=80%>
+r:"^(.*?)<size\=[0-9]+.*?%>チケット.*?$"=$1 <size\=50%>Ticket(s)
+2 <size\=68\n%>チケット\n=2 <size\=68%> Tickets\n
+1 <size\=68\n%>チケット\n=1 <size\=68%> Ticket\n
+
+トライアルタワーが開放されました！=Trial tower has been unlocked!
+デフラグマッチが開放されました！=Defrag match has been unlocked!
+合成キャンペーン実施中!!\n=Campaign !!\n
+ボーナス獲得!!=BONUS !!
+日 ログイン達成=-day Login
+
+r:"^獲得EXP x(.*?)倍!$"=EXP x$1!
+r:"^獲得EXP x(.*?)!$"=EXP x$1!
+合成後=After
+合成前=Before
+絞り込み=Filter
+ショップ=Shop
+r:"^<color\=#F8FFB8FF>消費チケット枚数  ([0-9]+)枚$"=<color\=#F8FFB8FF>Number of tickets to be used: $1
+購入制限=Restricted
+購入期間=Period
+価格=Price
+r:"^プロパティ ([0-9])$"=Property $1
+未印刷=Unprinted
+覚醒Lv.=A-Lv.
+r:"^ロール：(.*?)$"=Role：$1
+r:"^(.*?)武器種：(.*?)$"=$1Weapon：$2
+r:"^(.*?)を購入しました。$"=$1 was purchased.
+覚醒=A/W
+秒=s
+クールタイム=Cooldown
+ボーナス増加量=Bonus Amount
+覚醒未開放=Locked
+タイプ=Type
+戻る=Return
+
+※表示されているリワードはクエストで得られるものの一部です。=※The displayed rewards can be obtained in this quest.
+ヒーローログ\n=Hero Log\n
+装備品=Equipment
+アイテム=Item
+なし=None
+r:"^EX(.*?)出現！$"=EX Tower open!
+
+レアドロップ率上昇中！=Rare drop rate increased!
+レアドロップ率上昇期間=Drop rate event period:
+r:"^ヒーローログ＆装備 推奨レベル　Lv.(.*?)～"=Hero Log & Equipment Recommended Lv.$1+
+r:"^ヒーローログ＆装備 推奨レベル  Lv.(.*?)～"=Hero Log & Equipment Recommended Lv.$1+
+#r:"^([0-9]+)/([0-9]+)(.*?)$"=$1/$2
+
+調査、お疲れ様でした！\r\nカードや携帯電話などの置き忘れにはご注意くださいね。\r\n\r\nそれから、連動サイト<color\=#FF6699>《ViSTerモバイル》<color\=#FFFFFF>では\r\nわたしたちと連絡をとったり、調査の準備が行えます！\r\n\r\n是非アクセスしてみてくださいね！=Thank you for your research!\nPlease do not forget your cards or mobile phone!\nAfterwards, you can access <color\=#FF6699>《VISTER Mobile》<color\=#FFFFFF><br>and prepare for the next investigation!\nPlease use it!
+本日はお疲れ様でした。\r\nカード・携帯電話などの置き忘れにご注意くださいませ。\r\n\r\n連動サイト<color\=#FF6699>《ViSTerモバイル》<color\=#FFFFFF>では、\r\n調査に役立つ機能を多数ご用意しております。\r\n\r\n<color\=#FF6699>《ViSTerモバイル》<color\=#FFFFFF>でもお待ちしております、マスター。=Thank you for your research!\nPlease do not forget your cards or mobile phone!\nAfterwards, you can access <color\=#FF6699>《VISTER Mobile》<color\=#FFFFFF><br>and prepare for the next investigation!\nPlease use it!
+説明文=Text
+スキル=Skill
+副装備=Item
+武器=WP
+レベル\n=Level\n
+※リソース複製で購入したリソースは\n    印刷することができません。=※Purchased resources\n    can not be printed.
+リソースカードをスキャンすると\r\nショップで購入できるようになります。=Scanning a card will allow you\nto buy it at the shop.
+リソースカードの<color\=#FF6699><size\=36>二次元コード<color\=#FFED00FF><size\=30>を\n<size\=34>スキャナーにかざしてください。=Please hold the <color\=#FF6699><size\=36>QR Code<color\=#FFED00FF>\n<size\=34>over the scanner.
+プロフィールカードの<color\=#FF6699><size\=28>二次元コード<color\=#FFED00FF><size\=20>を\n<size\=28>スキャナーにかざしてください。=Please hold the <color\=#FF6699><size\=36>QR Code<color\=#FFED00FF>\n<size\=34>over the scanner.
+特典カードの<color\=#FF6699><size\=30\n>二次元コード<color\=#FFED00FF><size\=20>を\n<size\=28\n>スキャナーにかざしてください。=Please hold the <color\=#FF6699><size\=36>QR Code<color\=#FFED00FF>\n<size\=34>over the scanner.
+特典カードをスキャンして\nゲームの中で使用することができます。=You can scan a bonus card<br>and use it in the game.
+今日中に連動サイト<size\=120%><color\=#FF6699>《ViSTerモバイル》<color\=#FFFFFF></size>に登録すると=If you register at <size\=120%><color\=#FF6699>《VISTER Mobile》<color\=#FFFFFF></size>,
+                           もらえる！\n\n\n\n<size\=68%>QRコードを読み取って\n今すぐ入手しよう！=can be obtained!\n\n<size\=68%>Scan the QR code\nand register now!
+<size\=75%>VP<size\=60%>ガシャ<size\=100%>100連<size\=75%>分！<size\=110%>3000<size\=85%> VP</size>= <size\=110%>3000 <size\=85%>VP <size\=75%>for <size\=100%>100<size\=75%> pulls</size>
+バトルに参加するプレイヤーを探しています=Game is now searching for other players
+-準備OK-=-Ready-
+-準備OK-\n\n<size\=75%>他プレイヤーの準備が\n　　　　完了するまでお待ちください。。。。=-Ready-\n\n<size\=75%>Please wait for other players...
+編成中のヒーローログをスキャンして\r\nリーダーに任命できます。=Scan a hero log of the formation to appoint a leader.
+友達のプロフィールカードをスキャンして\r\nフレンドスキルを設定できます。=You can scan your friend's profile card and set a friend skill.
+編成中のサポートログをスキャンして\r\nリーダーに任命できます。=Scan a support log of the formation to appoint a leader.
+スキル名称=Skill Name
+フレンドスキル=Friend Skill
+
+
+エピソード=Episode
+■ お知らせ=■ Notice
+
+カード印刷=CARD PRINT
+ヒーローログや武器、防具の「リソースカード」や\r\n任意のリソース、スキル、メッセージ等を組み合わせた\r\n「プロフィールカード」を印刷することができます。=You can print "resource cards" for hero logs, weapons and armour, and "profile cards" with any combination of resources, skills, messages, etc.
+ガシャ=GASHA
+ガシャをまわして\r\nランダムにリソースを獲得する\r\nことができます。=You can obtain random resources by pulling the gasha.
+ストレージ整理=STORAGE TIDY
+ストレージ整理では\r\nリソースの売却やロックを\r\n行えます。=Storage organisation allows you to sell or lock resources.
+剣士の碑=FENCER'S OBELISK
+店舗内のランキングや、トライアルタワーの\r\n各階層のベストスコアを見ることができます。=You can see the shop rankings and the best scores for each level of the Trial Tower.
+
+1日1回無料キャンペーン中！=Free once per day!
+1日1回無料キャンペーン対象！=Free once per day!
+
+人気ヒーローログ=Popular Hero Logs
+階層進行度=Hierarchical
+クリアタイム=Clear Time
+同時キル数=Max.Multi-KO
+コンボ数=Max. Combo
+累積ダメージ数=Total DMG
+
+所持=Owned Medals
+※ガシャメダルはガシャ終了後\n一定期間で破棄されます。=※ Gasha Medals will expire.
+
+イベント実施中！！=Event is in progress!!
+イベント情報の詳細は連動サイト《VisTer モバイル》で確認できます。=You can check the event information on "Vister Mobile".
+イベント情報の詳細は連動サイト《ViSTer モバイル》で確認できます。=You can check the event information on "Vister Mobile".
+r:"^《イベントエピソード -([0-9]+)- 》$"=《Event Episode -$1-》
+《マイ店舗累計ポイント》は、マイ店舗でプレイした結果のみ\n     加算され店舗内ランキングに反映されます。="Store Points" are added only if you are playing at your registered home store.
+r:"^連動サイトで\n次の報酬獲得まで\nあと([0-9]+)クレジット！$"=$1 Credit(s) until the next reward!
+
+ゲスト=Guest
+クラスファースト=FIRST
+クラスフォース=FOURTH
+クラスフィフス=FIFTH
+クラスセカンド=SECOND
+クラスサード=THIRD
+-待機中-=-Wait-
+現在集まっているメンバーでクエストを開始する=Start game with current players
+クエストに参加するプレイヤーを探しています=Game is now searching for other players
+-このクエストは\nソロプレイ限定になります-=-This quest is limited to solo play-
+　　　　　　　を\n入力してください=Please enter a
+ルームナンバー=\nRoom Number
+
+トライアルタワー=Trial Tower
+r:"^あと　([0-9,.']+) PT$"=$1 PT to go
+ドロップブーストモード=Drop Boost Mode
+r:"^第([0-9]+)層$"=Floor $1
+r:"^トライアルタワー　第([0-9]+)層$"=Trial Tower Floor $1
+
+なまえ=Name
+全て=All
+ユイ=Yui
+
+称号を獲得しました。\r=Title obtained!\r
+-ヒーローログのスキルスロットが拡張されました！-=-Maximum number of skills increased!-
+
+イベント実施中!!=Event!!
+r:"^【現在 <color\=#FFCC00><size\=160%>(.*?)</size></color> 達成】$"=【Progress: <color\=#FFCC00><size\=160%>$1</size></color>]
