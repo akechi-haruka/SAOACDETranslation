@@ -13,6 +13,7 @@ r:"^([0-9]+)<size\=60%>クレジット <size\=80%>$"=$1<size\=60%> Credits <size
 r:"^(.*?)<size\=[0-9]+.*?%>チケット.*?$"=$1 <size\=50%>Ticket(s)
 2 <size\=68\n%>チケット\n=2 <size\=68%> Tickets\n
 1 <size\=68\n%>チケット\n=1 <size\=68%> Ticket\n
+3 <size\=68\n%>チケット\n=3 <size\=68%> Tickets\n
 
 トライアルタワーが開放されました！=Trial tower has been unlocked!
 デフラグマッチが開放されました！=Defrag match has been unlocked!
@@ -43,6 +44,28 @@ r:"^(.*?)を購入しました。$"=$1 was purchased.
 覚醒未開放=Locked
 タイプ=Type
 戻る=Return
+短剣=Dagger
+二刀流=2 Swords
+両手斧=Axe
+タンク=Tank
+サポーター=Supporter
+刀=2H Sword
+ID順=ID
+片手剣=1H Sword
+アタッカー=Attacker
+レアリティ=Rarity
+狙撃銃=Sniper
+入手順=Obtained
+バランス=Balanced
+ロール=Role
+細剣=Sword
+ソート=Sort
+片手棍=Club
+クロー=Crow
+弓=Bow
+武器種=Weapon
+強化値=Enhanc.
+
 
 ※表示されているリワードはクエストで得られるものの一部です。=※The displayed rewards can be obtained in this quest.
 ヒーローログ\n=Hero Log\n
@@ -59,11 +82,14 @@ r:"^ヒーローログ＆装備 推奨レベル  Lv.(.*?)～"=Hero Log & Equipme
 
 調査、お疲れ様でした！\r\nカードや携帯電話などの置き忘れにはご注意くださいね。\r\n\r\nそれから、連動サイト<color\=#FF6699>《ViSTerモバイル》<color\=#FFFFFF>では\r\nわたしたちと連絡をとったり、調査の準備が行えます！\r\n\r\n是非アクセスしてみてくださいね！=Thank you for your research!\nPlease do not forget your cards or mobile phone!\nAfterwards, you can access <color\=#FF6699>《VISTER Mobile》<color\=#FFFFFF><br>and prepare for the next investigation!\nPlease use it!
 本日はお疲れ様でした。\r\nカード・携帯電話などの置き忘れにご注意くださいませ。\r\n\r\n連動サイト<color\=#FF6699>《ViSTerモバイル》<color\=#FFFFFF>では、\r\n調査に役立つ機能を多数ご用意しております。\r\n\r\n<color\=#FF6699>《ViSTerモバイル》<color\=#FFFFFF>でもお待ちしております、マスター。=Thank you for your research!\nPlease do not forget your cards or mobile phone!\nAfterwards, you can access <color\=#FF6699>《VISTER Mobile》<color\=#FFFFFF><br>and prepare for the next investigation!\nPlease use it!
+調査、お疲れ様でした！\r\n今回はゲストモードのため、探索で得られた\r\nリソースを保持することはできません。\r\n\r\n連動サイト<color\=#FF6699>《ViSTerモバイル》<color\=#FFFFFF>も\r\n是非チェックしてみてくださいね！=Thank you for your research!\nThis time, because using guest mode, it is not possible to save the resources obtained.\r\n\r\nPlease check out <color\=#FF6699>《VISTER Mobile》<color\=#FFFFFF>!
 説明文=Text
 スキル=Skill
 副装備=Item
 武器=WP
 レベル\n=Level\n
+r:"^<size\=68%>残り</size>\n([0-9]+)個$"=<size\=68%>Remain:</size>\n$1
+※期間限定リソースは後日再販されたり、他の手段で入手できる可能性があります。=※Limited time resources may be resold at a later date.
 ※リソース複製で購入したリソースは\n    印刷することができません。=※Purchased resources\n    can not be printed.
 リソースカードをスキャンすると\r\nショップで購入できるようになります。=Scanning a card will allow you\nto buy it at the shop.
 リソースカードの<color\=#FF6699><size\=36>二次元コード<color\=#FFED00FF><size\=30>を\n<size\=34>スキャナーにかざしてください。=Please hold the <color\=#FF6699><size\=36>QR Code<color\=#FFED00FF>\n<size\=34>over the scanner.
@@ -137,9 +163,31 @@ r:"^トライアルタワー　第([0-9]+)層$"=Trial Tower Floor $1
 なまえ=Name
 全て=All
 ユイ=Yui
+菊岡=Kikuoka
+ピナ=Pina
 
 称号を獲得しました。\r=Title obtained!\r
 -ヒーローログのスキルスロットが拡張されました！-=-Maximum number of skills increased!-
 
 イベント実施中!!=Event!!
 r:"^【現在 <color\=#FFCC00><size\=160%>(.*?)</size></color> 達成】$"=【Progress: <color\=#FFCC00><size\=160%>$1</size></color>]
+
+r:"^間もなく閉店時間です。\nあと([0-9]+)分で新規プレイの受付を終了します。$"=Closing time is approaching.\nIn $1 minute(s), new plays can no longer be started.
+r:"^間もなく閉店時間です。\nあと([0-9]+)分でコインの投入ができなくなります。$"=Closing time is approaching.\nIn $1 minute(s), you can no longer insert coins.
+r:"^間もなく閉店時間です。\nあと([0-9]+)分で自動的にゲームを終了します。$"=Closing time is approaching.\nIn $1 minute(s), the game will automatically end.
+閉店時間のため、ゲームを終了します。\n※残ったチケットは《VPガシャチケット》に\n変換されます。=It is closing time.\n※ The remaining tickets are converted to VP Gasha Tickets.
+本日のプレイ受付は終了しました。=Today's play reception has ended.
+ネットワークのメンテナンス時間のため、\nバナパスポートカードの使用はできません。=Network maintenance is in progress, so Banapassports can not be used.
+<size\=85%><color\=#FF6699>復帰対象のデータがあります。</color>\n\n<size\=75%><color\=#FFCC00>バナパスポートカード\n(バンダイナムコパスポート)</color>を\nカードリーダーにタッチしてください。=<size\=85%><color\=#FF6699>Data can be restored.</color>\n\nTouch your <size\=75%><color\=#FFCC00>Banapassport Card (Bandai Namco Passport)</color> to the card reader.
+<size\=85%><color\=#FF6699>エラーが発生しました。</color>\n\n<size\=75%>再度<color\=#FFCC00>バナパスポートカード\n(バンダイナムコパスポート)</color>を\nカードリーダーにタッチしてください。=<size\=85%><color\=#FF6699>An error has occurred.</color>\n\nTouch your <size\=75%><color\=#FFCC00>Banapassport Card (Bandai Namco Passport)</color> to the card reader again.
+
+デフラグマッチ=Defrag Match
+他のプレイヤーと競い合いながら\nより上位のリーグを目指すモードです。\nエピソードを進行することで解放されます。=This is a mode where you compete against other players for leagues. It will be unlocked by Episode progression.
+より高位なリソースを獲得できる高難度のクエストに\r\n挑戦することができます。\r\nエピソードを進行することで解放されます。=Challenge a high-difficulty quest with higher resource rewards. It will be unlocked by Episode progression.
+カスタム=Custom
+出撃メンバーの編成を行ったり\r\n獲得リソースの合成・強化・売却\r\nを行うことができます。=Here you can set your party, perform synthesis, reinforcement, and sell resources.
+《Unknown》の調査を行うことができます。\r\nクエストをクリアすることで物語が進行していきます。=Here you can investigate "Unknown". The story progresses by clearing quests.
+リソースカードの二次元コードを\r\n読み取り、リソースを購入する\r\nことができます。=Here you can scan resource cards and purchase resources.
+特典カード=Import
+特典カードの二次元コードを\n\r読み取り、リソースを\r\n入手することができます。=Here you can scan bonus resource cards.
+
