@@ -65,6 +65,9 @@ ID順=ID
 弓=Bow
 武器種=Weapon
 強化値=Enhanc.
+固有=Special
+強化=Buffing
+回復=Recovery
 
 
 ※表示されているリワードはクエストで得られるものの一部です。=※The displayed rewards can be obtained in this quest.
